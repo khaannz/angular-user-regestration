@@ -1,0 +1,11 @@
+.login{
+    margin: 100px;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    margin: 20px;
+    padding: 20px;
+}

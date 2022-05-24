@@ -1,0 +1,18 @@
+<div class="login">
+
+    <h1>Login</h1>
+
+    <form action="" (ngSubmit)="login()">
+        <div class="item">
+            <label for="name">Email</label>
+            <input type="email" [(ngModel)]="email" name="email" id="email">
+        </div>
+        <div class="item">
+            <label for="name">Password</label>
+            <input type="password" [(ngModel)]="password" name="password" id="password">
+        </div>
+        <button type="submit">Login</button>
+    </form>
+    <p>Not Registered? <a routerLink="/register">Register Now</a></p>
+
+</div>
